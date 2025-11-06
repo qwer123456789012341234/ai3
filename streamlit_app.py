@@ -74,6 +74,11 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     #   "images": ["https://.../jjampong1.jpg", "https://.../jjampong2.jpg"],
     #   "videos": ["https://youtu.be/XXXXXXXXXXX"]
     # },
+     labels[0]: {
+       "texts": ["아프리카에서 방송을 하는 사람들입니다", "국물 맛 포인트", "지역별 스타일 차이"],
+       "images": ["https://www.chosun.com/resizer/v2/QX5JA3FEQNDGHJMG3TKSWUVOV4.jpg?auth=f805e75fe82cfd9c039cd7a96871a804c97c0ca14e52c91a5c78027a3cec777b&width=616"],
+       "videos": ["https://www.youtube.com/watch?v=CtNq9FmsGy4"]
+     },
 }
 
 # ======================
