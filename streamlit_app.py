@@ -75,10 +75,23 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     #   "videos": ["https://youtu.be/XXXXXXXXXXX"]
     # },
      labels[0]: {
-       "texts": ["아프리카에서 방송을 하는 사람들입니다", "국물 맛 포인트", "지역별 스타일 차이"],
+       "texts": ["아프리카에서 방송을 하는 사람들입니다"],
        "images": ["https://www.chosun.com/resizer/v2/QX5JA3FEQNDGHJMG3TKSWUVOV4.jpg?auth=f805e75fe82cfd9c039cd7a96871a804c97c0ca14e52c91a5c78027a3cec777b&width=616"],
        "videos": ["https://www.youtube.com/watch?v=CtNq9FmsGy4"]
      },
+    
+    labels[1]: {
+       "texts": ["생방송을 하며 주로 리액션을 하는 여자 방송인입니다"],
+       "images": ["https://plus.hankyung.com/apps/newsinside.view?aid=2025021460506&category=&sns=y"],
+       "videos": ["https://www.youtube.com/watch?v=Kkcsbg-Wzlo"]
+     },
+
+     labels[2]: {
+       "texts": ["유튜브에서 컨텐츠를 제작해 돈을 버는 사람들입니다"],
+       "images": ["https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/202402/16/f675bd8a-3f22-4aa8-8840-f220dbe2e314.jpg"],
+       "videos": ["https://www.youtube.com/watch?v=dXk1rjSRTVk"]
+     },
+    
 }
 
 # ======================
